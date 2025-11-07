@@ -3,148 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Omar - Front-End Developer</title>
+    <title>FitZone Gym - Transform Your Body, Transform Your Life</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="#home">Omar</a>
-            </div>
-            <ul class="nav-menu" id="nav-menu">
-                <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#projects" class="nav-link">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">FitZone</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="nav-toggle" id="nav-toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
         </div>
     </nav>
 
-    <!-- Home Section -->
-    <section id="home" class="section hero-section">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">Hi, I'm <span class="highlight">Omar</span></h1>
-                <h2 class="hero-subtitle">Web Developer / Front-End Developer</h2>
-                <p class="hero-description">I'm a Front-End Developer specializing in responsive, modern websites. Check my portfolio.</p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View My Work</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-                </div>
-            </div>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Transform Your Body, Transform Your Life</h1>
+            <p class="hero-subtitle">Join FitZone Gym today and start your fitness journey with state-of-the-art equipment and expert trainers</p>
+            <a href="#contact" class="cta-button">Get Started</a>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="section">
+    <!-- Features Section -->
+    <section class="features">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>I'm a Front-End Developer specializing in responsive, modern websites. Check my portfolio.</p>
-                    <p>I have a passion for creating clean, user-friendly interfaces that work seamlessly across all devices. My focus is on writing clean code and building websites that are both beautiful and functional.</p>
+            <h2 class="section-title">Why Choose FitZone?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">💪</div>
+                    <h3>Modern Equipment</h3>
+                    <p>State-of-the-art fitness equipment from leading brands</p>
                 </div>
-                <div class="skills-section">
-                    <h3 class="skills-title">Skills</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <span class="skill-name">HTML</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">CSS</span>
-                        </div>
-                        <div class="skill-item">
-                            <span class="skill-name">JavaScript</span>
-                        </div>
-                    </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👨‍🏫</div>
+                    <h3>Expert Trainers</h3>
+                    <p>Certified personal trainers to guide you every step of the way</p>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="section projects-section">
-        <div class="container">
-            <h2 class="section-title">Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">Portfolio</div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Portfolio Website</h3>
-                        <p class="project-description">A responsive portfolio website showcasing my work and skills. Built with HTML, CSS, and JavaScript.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML</span>
-                            <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">JavaScript</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link" target="_blank">Live Demo</a>
-                            <a href="#" class="project-link" target="_blank">GitHub</a>
-                        </div>
-                    </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⏰</div>
+                    <h3>24/7 Access</h3>
+                    <p>Work out on your schedule with round-the-clock access</p>
                 </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">Project 2</div>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Project 2</h3>
-                        <p class="project-description">Description of your second project. Add details about what you built and the technologies used.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML</span>
-                            <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">JavaScript</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#" class="project-link" target="_blank">Live Demo</a>
-                            <a href="#" class="project-link" target="_blank">GitHub</a>
-                        </div>
-                    </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏋️</div>
+                    <h3>Group Classes</h3>
+                    <p>Join exciting group fitness classes and stay motivated</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section contact-section">
+    <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
-            <p class="contact-intro">Have a project in mind or want to collaborate? I'd love to hear from you!</p>
-            <form class="contact-form" id="contact-form">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Visit Us</h3>
+                    <p><strong>Address:</strong> 123 Fitness Street, Health City, HC 12345</p>
+                    <p><strong>Phone:</strong> (555) 123-4567</p>
+                    <p><strong>Email:</strong> info@fitzonegym.com</p>
+                    <p><strong>Hours:</strong> Open 24/7</p>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Send Message</button>
-            </form>
-            <div class="contact-info">
-                <p>Or reach out directly:</p>
-                <p class="email-link">your.email@example.com</p>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                    <div id="formMessage" class="form-message"></div>
+                </form>
             </div>
         </div>
     </section>
@@ -152,7 +96,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Omar. All rights reserved.</p>
+            <p>&copy; 2024 FitZone Gym. All rights reserved.</p>
         </div>
     </footer>
 
