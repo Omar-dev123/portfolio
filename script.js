@@ -122,6 +122,7 @@ if (contactForm) {
         const email = document.getElementById('email').value;
         const message = document.getElementById('message').value;
         
+        
         // Basic validation
         if (!name || !email || !message) {
             alert('Please fill in all fields.');
@@ -137,7 +138,7 @@ if (contactForm) {
         
         // For now, just show a success message
         // In production, you would send this to a backend service
-        alert('Thank you for your message! I\'ll get back to you soon.');
+        // alert('Thank you for your message! I\'ll get back to you soon.');
         
         // Reset form
         contactForm.reset();
@@ -170,3 +171,4 @@ if (contactForm) {
         */
     });
 }
+
